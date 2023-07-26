@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class FirstController {
 
     @GetMapping("/first_html")
-    public String get(){
+    public String get() {
         return "my_second_html_page";
     }
 
     @GetMapping("/second_html")
-    public String getSecondHtml(){
+    public String getSecondHtml() {
         return "test";
     }
 }
